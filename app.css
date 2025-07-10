@@ -208,59 +208,60 @@ ul{
 
 .btn-primary:link, .btn-primary:visited{
     
-    color: #ffffff;
-    background-color:#339af0;
+    color: var(--white);
+    background-color: var(--primary-base);
+    border: 2px solid var(--primary-base);
     
 }
 
 .btn-primary:hover, .btn-primary:active{
     color: var(--white);
-    background-color: var(--primary-base);
-    border: 2px solid var(--primary-base);
-}
-
-.btn-primary-outline:link, .btn-primary-outline:visited{
-
-    color:var(--white);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
 }
 
+.btn-primary-outline:link, .btn-primary-outline:visited{
+
+    color:var(--primary-base);
+    background-color: var(--white);
+    border: 2px solid var(--primary-base);
+}
+
 .btn-primary-outline:hover, .btn-primary-outline:active{
 
-    color:#1c7ed6;
-    background-color: #ffffff;
-    border: 2px solid #1c7ed6;
+    color: var(--primary-shade);
+    background-color: var(--white);
+    border: 2px solid var(--primary-shade);
 }
 
 .btn-secondary:link, .btn-secondary:visited{
-    color:#ffffff;
-    background-color: #9775fa;
-    border: 2px solid #9775fa;
+    color: var(--white) ;
+    background-color: var(--secondary-base);
+    border: 2px solid var(--secondary-base);
 }
 
 .btn-secondary:hover, .btn-secondary:active{
-    color: #ffffff;
-    background-color: #7048e8;
-    border: 2px solid #7048e8;
+    color: var(--white);
+    background-color: var(--secondary-shade);
+    border: 2px solid var(--secondary-shade);
 }
 
 .hightlight{
-    color: #ffffff;
+    color: var(--white);
     padding: 0.5rem 1rem;
     border-radius: 10px;
 }
 
 .highlight-primary{
-    background-color: #1c7ed6;
+    background-color: var(--primary-shade);
 }
 
 .highlight-secondary{
-    background-color:#7048e8 ;
+    background-color: var(--secondary-shade);
 }
 
 .hightlight-tirtary{
-    background-color: #ff922b;
+    background-color: var(--tertiary-base);
 }
 
 .logo-md{
@@ -341,7 +342,7 @@ ul{
 
 
 .cta-card{
-    background-color: #339af0;
+    background-color: var(--primary-base);
     max-width:1000px;
     padding: 10rem 20rem;
     border-radius: 40px;
