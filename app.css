@@ -107,7 +107,7 @@ Black:#000000
 
 /* Miscellaneous */
 
---nav-height: 300px;
+--nav-height: 300px; /* --------update the value in flexbox topice-------- */
 
 }
 
@@ -282,6 +282,8 @@ ul{
 /* --------Navbar-------- */
 .navbar{
     height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -350,6 +352,9 @@ ul{
 
 .footer{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .social-icon{
